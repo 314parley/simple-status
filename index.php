@@ -84,8 +84,8 @@ if(check("http://www.314chan.org/lestatus.php") == '314'){
 }
 #MySQL server is a work in progress.
 /*
-$connection = ssh2_connect('erebus.feralhosting.com', 22);
-ssh2_auth_password($connection, 'specter', 'Jbi8rUESA2aGVita');
+$connection = ssh2_connect('host.com', 22);
+ssh2_auth_password($connection, 'user', 'password');
 $tunnel = ssh2_tunnel($connection, 'DESTINATION IP', 3307);
 $db = mysqli_connect('127.0.0.1', 'DB_USERNAME', 'DB_PASSWORD', 
                          'dbname', 3307, $tunnel)
